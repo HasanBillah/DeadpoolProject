@@ -1,6 +1,7 @@
 package upskill.stepDef;
 
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import upskill.pageActions.EbayHomePageActions;
 
@@ -45,6 +46,16 @@ public class EbayHomePageSteps {
 	@Given("Search for Big Tall Cotton Tee")
 	public void search_for_big_tall_cotton_tee() {
 		EbayHomePageActionsObj.typeBigTallCottonTee();
+	}
+	
+	@When("Mouse Hover to MyEbay Summary")
+	public void mouse_hover_to_my_ebay_summary() {
+		EbayHomePageActionsObj.mouseHoverMyEbay();
+	}
+
+	@Then("Click on Summary")
+	public void click_on_summary() {
+		EbayHomePageActionsObj.clickSummary(); 
 	}
 
 	

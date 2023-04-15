@@ -1,0 +1,276 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Ebay</td><td class="numi">8</td><td class="numi">3</td><td class="numi">0</td><td class="numi_attn">8</td><td class="numi">224.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Ebay &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">upskill.runners.RunnerClass</td><td><a href="#m1"><b>writeExtentReport</b>  </a></td><td class="numi">1</td><td>1678674561545</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Ebay &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="8">upskill.runners.RunnerClass</td><td><a href="#m2"><b>runScenario</b> (cucumber) ("Runs Cucumber Scenarios")</a></td><td class="numi">5</td><td>1678674472699</td><td class="numi">88845</td></tr><tr class="failedodd"><td><a href="#m3"><b>runScenario</b> (cucumber) ("Runs Cucumber Scenarios")</a></td><td class="numi">5</td><td>1678674472699</td><td class="numi">88845</td></tr><tr class="failedodd"><td><a href="#m4"><b>runScenario</b> (cucumber) ("Runs Cucumber Scenarios")</a></td><td class="numi">5</td><td>1678674472699</td><td class="numi">88845</td></tr><tr class="failedodd"><td><a href="#m5"><b>runScenario</b> (cucumber) ("Runs Cucumber Scenarios")</a></td><td class="numi">5</td><td>1678674472699</td><td class="numi">88845</td></tr><tr class="failedodd"><td><a href="#m6"><b>runScenario</b> (cucumber) ("Runs Cucumber Scenarios")</a></td><td class="numi">5</td><td>1678674472699</td><td class="numi">88845</td></tr><tr class="failedodd"><td><a href="#m7"><b>runScenario</b> (cucumber) ("Runs Cucumber Scenarios")</a></td><td class="numi">5</td><td>1678674472699</td><td class="numi">88845</td></tr><tr class="failedodd"><td><a href="#m8"><b>runScenario</b> (cucumber) ("Runs Cucumber Scenarios")</a></td><td class="numi">5</td><td>1678674472699</td><td class="numi">88845</td></tr><tr class="failedodd"><td><a href="#m9"><b>runScenario</b> (cucumber) ("Runs Cucumber Scenarios")</a></td><td class="numi">5</td><td>1678674472699</td><td class="numi">88845</td></tr>
+<tr><th colspan="4">Ebay &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="8">upskill.runners.RunnerClass</td><td><a href="#m10"><b>runScenario</b> (cucumber) ("Runs Cucumber Scenarios")</a></td><td class="numi">3</td><td>1678674338068</td><td class="numi">134630</td></tr><tr class="passedodd"><td><a href="#m11"><b>runScenario</b> (cucumber) ("Runs Cucumber Scenarios")</a></td><td class="numi">3</td><td>1678674338068</td><td class="numi">134630</td></tr><tr class="passedodd"><td><a href="#m12"><b>runScenario</b> (cucumber) ("Runs Cucumber Scenarios")</a></td><td class="numi">3</td><td>1678674338068</td><td class="numi">134630</td></tr><tr class="passedodd"><td><a href="#m13"><b>runScenario</b> (cucumber) ("Runs Cucumber Scenarios")</a></td><td class="numi">3</td><td>1678674338068</td><td class="numi">134630</td></tr><tr class="passedodd"><td><a href="#m14"><b>runScenario</b> (cucumber) ("Runs Cucumber Scenarios")</a></td><td class="numi">3</td><td>1678674338068</td><td class="numi">134630</td></tr><tr class="passedodd"><td><a href="#m15"><b>runScenario</b> (cucumber) ("Runs Cucumber Scenarios")</a></td><td class="numi">3</td><td>1678674338068</td><td class="numi">134630</td></tr><tr class="passedodd"><td><a href="#m16"><b>runScenario</b> (cucumber) ("Runs Cucumber Scenarios")</a></td><td class="numi">3</td><td>1678674338068</td><td class="numi">134630</td></tr><tr class="passedodd"><td><a href="#m17"><b>runScenario</b> (cucumber) ("Runs Cucumber Scenarios")</a></td><td class="numi">3</td><td>1678674338068</td><td class="numi">134630</td></tr>
+</table>
+<h1>Ebay</h1>
+<h2 id="m1">upskill.runners.RunnerClass:writeExtentReport</h2>
+<div style="padding-left:3em">
+<p>Cannot invoke &quot;com.aventstack.extentreports.reporter.ExtentHtmlReporter.loadXMLConfig(java.io.File)&quot; because the return value of &quot;com.cucumber.listener.Reporter.getExtentHtmlReport()&quot; is null</p>
+com.cucumber.listener.Reporter.loadXMLConfig(Reporter.java:66)
+<br/>at upskill.runners.RunnerClass.writeExtentReport(RunnerClass.java:25)
+<br/>29 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">upskill.runners.RunnerClass:runScenario</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>&quot;Upskill multiple employee records&quot;</td>
+<td>&quot;Optional[App user should be able to create and get employee details]&quot;</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+<p>disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=111.0.5563.64)
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;Hasans-MBP.lan1&apos;, ip: &apos;2603:7000:dd00:341c:0:0:0:ae%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:53188}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 95671df1b8ea6f6d5c4d20489bbefe0e</p>
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+<br/>at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:433)
+<br/>at upskill.utilities.SetupDrivers.tearDownDriver(SetupDrivers.java:36)
+<br/>at upskill.utilities.AfterActions.afterActions(AfterActions.java:16)
+<br/>1 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">upskill.runners.RunnerClass:runScenario</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>&quot;Ebay cart functionality&quot;</td>
+<td>&quot;Optional[Ebay Cart Functionality]&quot;</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+<p>disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=111.0.5563.64)
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;Hasans-MBP.lan1&apos;, ip: &apos;2603:7000:dd00:341c:0:0:0:ae%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:52832}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19b67f0526b0e72b1e4079ad46fa9673</p>
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+<br/>at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+<br/>at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+<br/>at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+<br/>at upskill.pageActions.EbayHomePageActions.typeBigTallCottonTee(EbayHomePageActions.java:41)
+<br/>at upskill.stepDef.EbayHomePageSteps.search_for_big_tall_cotton_tee(EbayHomePageSteps.java:47)
+<br/>at ✽.Search for Big Tall Cotton Tee(file:///Users/hasanb./eclipse-workspace/SaturdayDeadpool/src/test/resource/FeatureFiles/EbayCartDropDown.feature:10)
+<br/>1 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">upskill.runners.RunnerClass:runScenario</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>&quot;Search for Shirts&quot;</td>
+<td>&quot;Optional[Ebay Search Functionality]&quot;</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+<p>no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=111.0.5563.64)
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;Hasans-MBP.lan1&apos;, ip: &apos;2603:7000:dd00:341c:0:0:0:ae%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:53164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 713ba4b5e28a6ad284ac535ef19594f5
+*** Element info: {Using=xpath, value=//input[@placeholder=&apos;Search for anything&apos;]}</p>
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+<br/>at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+<br/>at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+<br/>at jdk.proxy2/jdk.proxy2.$Proxy21.sendKeys(Unknown Source)
+<br/>at upskill.pageActions.EbayHomePageActions.typeShirts(EbayHomePageActions.java:31)
+<br/>at upskill.stepDef.EbayHomePageSteps.search_for_shirts(EbayHomePageSteps.java:34)
+<br/>at ✽.Search for shirts(file:///Users/hasanb./eclipse-workspace/SaturdayDeadpool/src/test/resource/FeatureFiles/EbaySearch1.feature:20)
+<br/>1 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">upskill.runners.RunnerClass:runScenario</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>&quot;Search for Shoes&quot;</td>
+<td>&quot;Optional[Ebay Search Functionality]&quot;</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+<p>no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=111.0.5563.64)
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;Hasans-MBP.lan1&apos;, ip: &apos;2603:7000:dd00:341c:0:0:0:ae%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:52942}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 17c1c6cb2b988d035e5040dec8dc251b
+*** Element info: {Using=xpath, value=//span[text()=&apos;Shoes&apos;]}</p>
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+<br/>at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+<br/>at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+<br/>at jdk.proxy2/jdk.proxy2.$Proxy21.isDisplayed(Unknown Source)
+<br/>at upskill.pageActions.EbaySearchResultActions.verifyShoes(EbaySearchResultActions.java:19)
+<br/>at upskill.stepDef.EbaySearchResultSteps.item_list_should_have_only_shoes_related_products(EbaySearchResultSteps.java:14)
+<br/>at ✽.Item list should have only shoes related products(file:///Users/hasanb./eclipse-workspace/SaturdayDeadpool/src/test/resource/FeatureFiles/EbaySearch1.feature:8)
+<br/>1 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">upskill.runners.RunnerClass:runScenario</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>&quot;Search for Pants&quot;</td>
+<td>&quot;Optional[Ebay Search Functionality]&quot;</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+<p>no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=111.0.5563.64)
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;Hasans-MBP.lan1&apos;, ip: &apos;2603:7000:dd00:341c:0:0:0:ae%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:53087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b87be3d065a1b434963ae057c1782546
+*** Element info: {Using=xpath, value=//span[text()=&apos;Pants&apos;]}</p>
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+<br/>at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+<br/>at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+<br/>at jdk.proxy2/jdk.proxy2.$Proxy21.isDisplayed(Unknown Source)
+<br/>at upskill.pageActions.EbaySearchResultActions.verifyPants(EbaySearchResultActions.java:23)
+<br/>at upskill.stepDef.EbaySearchResultSteps.item_list_should_have_only_pants_related_products(EbaySearchResultSteps.java:20)
+<br/>at ✽.Item list should have only pants related products(file:///Users/hasanb./eclipse-workspace/SaturdayDeadpool/src/test/resource/FeatureFiles/EbaySearch1.feature:15)
+<br/>1 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">upskill.runners.RunnerClass:runScenario</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>&quot;Filter items by Brand&quot;</td>
+<td>&quot;Optional[Ebay Brand Outline]&quot;</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">upskill.runners.RunnerClass:runScenario</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>&quot;Filter items by Brand&quot;</td>
+<td>&quot;Optional[Ebay Brand Outline]&quot;</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">upskill.runners.RunnerClass:runScenario</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>&quot;Filter items by Brand&quot;</td>
+<td>&quot;Optional[Ebay Brand Outline]&quot;</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

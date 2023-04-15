@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression]" verbose="0">
+  <test name="Ebay(failed)">
+    <classes>
+      <class name="upskill.runners.RunnerClass">
+        <methods>
+          <include name="writeExtentReport"/>
+          <include name="runScenario" invocation-numbers="3 4 5 6 7"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- upskill.runners.RunnerClass -->
+    </classes>
+  </test> <!-- Ebay(failed) -->
+</suite> <!-- Failed suite [Regression] -->

@@ -1,0 +1,66 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 224.684 s <<< FAILURE! - in TestSuite
+runScenario(upskill.runners.RunnerClass)  Time elapsed: 22.02 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=111.0.5563.64)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'Hasans-MBP.lan1', ip: '2603:7000:dd00:341c:0:0:0:ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:52832}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19b67f0526b0e72b1e4079ad46fa9673
+
+runScenario(upskill.runners.RunnerClass)  Time elapsed: 38.025 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=111.0.5563.64)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'Hasans-MBP.lan1', ip: '2603:7000:dd00:341c:0:0:0:ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:52942}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 17c1c6cb2b988d035e5040dec8dc251b
+*** Element info: {Using=xpath, value=//span[text()='Shoes']}
+
+runScenario(upskill.runners.RunnerClass)  Time elapsed: 16.222 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=111.0.5563.64)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'Hasans-MBP.lan1', ip: '2603:7000:dd00:341c:0:0:0:ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:53087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b87be3d065a1b434963ae057c1782546
+*** Element info: {Using=xpath, value=//span[text()='Pants']}
+
+runScenario(upskill.runners.RunnerClass)  Time elapsed: 6.17 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=111.0.5563.64)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'Hasans-MBP.lan1', ip: '2603:7000:dd00:341c:0:0:0:ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:53164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 713ba4b5e28a6ad284ac535ef19594f5
+*** Element info: {Using=xpath, value=//input[@placeholder='Search for anything']}
+
+runScenario(upskill.runners.RunnerClass)  Time elapsed: 6.407 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=111.0.5563.64)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'Hasans-MBP.lan1', ip: '2603:7000:dd00:341c:0:0:0:ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:53188}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 95671df1b8ea6f6d5c4d20489bbefe0e
+
+writeExtentReport(upskill.runners.RunnerClass)  Time elapsed: 6.419 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.reporter.ExtentHtmlReporter.loadXMLConfig(java.io.File)" because the return value of "com.cucumber.listener.Reporter.getExtentHtmlReport()" is null
+	at upskill.runners.RunnerClass.writeExtentReport(RunnerClass.java:25)
+

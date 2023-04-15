@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="224.684" tests="9" errors="0" skipped="0" failures="6">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/hasanb./eclipse-workspace/SaturdayDeadpool/target/test-classes:/Users/hasanb./eclipse-workspace/SaturdayDeadpool/target/classes:/Users/hasanb./.m2/repository/io/github/bonigarcia/webdrivermanager/3.8.1/webdrivermanager-3.8.1.jar:/Users/hasanb./.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/hasanb./.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/hasanb./.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/hasanb./.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/hasanb./.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/hasanb./.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/hasanb./.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/hasanb./.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/hasanb./.m2/repository/io/cucumber/cucumber-core/6.10.2/cucumber-core-6.10.2.jar:/Users/hasanb./.m2/repository/io/cucumber/cucumber-gherkin/6.10.2/cucumber-gherkin-6.10.2.jar:/Users/hasanb./.m2/repository/io/cucumber/cucumber-gherkin-messages/6.10.2/cucumber-gherkin-messages-6.10.2.jar:/Users/hasanb./.m2/repository/io/cucumber/messages/14.0.1/messages-14.0.1.jar:/Users/hasanb./.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/hasanb./.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/hasanb./.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/hasanb./.m2/repository/io/cucumber/cucumber-plugin/6.10.2/cucumber-plugin-6.10.2.jar:/Users/hasanb./.m2/repository/io/cucumber/docstring/6.10.2/docstring-6.10.2.jar:/Users/hasanb./.m2/repository/io/cucumber/html-formatter/12.0.0/html-formatter-12.0.0.jar:/Users/hasanb./.m2/repository/io/cucumber/create-meta/3.0.0/create-meta-3.0.0.jar:/Users/hasanb./.m2/repository/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.jar:/Users/hasanb./.m2/repository/io/cucumber/cucumber-java/6.10.2/cucumber-java-6.10.2.jar:/Users/hasanb./.m2/repository/io/cucumber/cucumber-testng/6.10.2/cucumber-testng-6.10.2.jar:/Users/hasanb./.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/hasanb./.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/Users/hasanb./.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/Users/hasanb./.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/Users/hasanb./.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/Users/hasanb./.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/Users/hasanb./.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/Users/hasanb./.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/Users/hasanb./.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/Users/hasanb./.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/Users/hasanb./.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/Users/hasanb./.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/Users/hasanb./.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/hasanb./.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/hasanb./.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/hasanb./.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/hasanb./.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/Users/hasanb./.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/hasanb./.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/hasanb./.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/hasanb./.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/hasanb./.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/hasanb./.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/hasanb./.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/hasanb./.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/hasanb./.m2/repository/org/testng/testng/6.8/testng-6.8.jar:/Users/hasanb./.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/hasanb./.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/hasanb./.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/Users/hasanb./.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar:/Users/hasanb./.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar:/Users/hasanb./.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/hasanb./.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/hasanb./.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/hasanb./.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/hasanb./.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/hasanb./.m2/repository/com/vimalselvam/cucumber-extentsreport/3.1.0/cucumber-extentsreport-3.1.0.jar:/Users/hasanb./.m2/repository/org/apache/poi/poi-ooxml/3.8-beta4/poi-ooxml-3.8-beta4.jar:/Users/hasanb./.m2/repository/org/apache/poi/poi/3.8-beta4/poi-3.8-beta4.jar:/Users/hasanb./.m2/repository/org/apache/poi/poi-ooxml-schemas/3.8-beta4/poi-ooxml-schemas-3.8-beta4.jar:/Users/hasanb./.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar:/Users/hasanb./.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/hasanb./.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/hasanb./.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/hasanb./.m2/repository/io/rest-assured/rest-assured/4.0.0/rest-assured-4.0.0.jar:/Users/hasanb./.m2/repository/org/codehaus/groovy/groovy-xml/2.5.6/groovy-xml-2.5.6.jar:/Users/hasanb./.m2/repository/org/hamcrest/hamcrest-core/2.1/hamcrest-core-2.1.jar:/Users/hasanb./.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/hasanb./.m2/repository/org/hamcrest/hamcrest-library/2.1/hamcrest-library-2.1.jar:/Users/hasanb./.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/hasanb./.m2/repository/io/rest-assured/json-path/4.0.0/json-path-4.0.0.jar:/Users/hasanb./.m2/repository/org/codehaus/groovy/groovy-json/2.5.6/groovy-json-2.5.6.jar:/Users/hasanb./.m2/repository/io/rest-assured/rest-assured-common/4.0.0/rest-assured-common-4.0.0.jar:/Users/hasanb./.m2/repository/io/rest-assured/xml-path/4.0.0/xml-path-4.0.0.jar:/Users/hasanb./.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/Users/hasanb./.m2/repository/com/sun/xml/bind/jaxb-osgi/2.2.10/jaxb-osgi-2.2.10.jar:/Users/hasanb./.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/hasanb./.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/hasanb./.m2/repository/io/rest-assured/json-schema-validator/4.0.0/json-schema-validator-4.0.0.jar:/Users/hasanb./.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.10/json-schema-validator-2.2.10.jar:/Users/hasanb./.m2/repository/com/github/java-json-tools/json-schema-core/1.2.10/json-schema-core-1.2.10.jar:/Users/hasanb./.m2/repository/com/github/java-json-tools/jackson-coreutils/1.9/jackson-coreutils-1.9.jar:/Users/hasanb./.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.jar:/Users/hasanb./.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar:/Users/hasanb./.m2/repository/com/fasterxml/jackson/core/jackson-core/2.2.3/jackson-core-2.2.3.jar:/Users/hasanb./.m2/repository/com/github/fge/msg-simple/1.1/msg-simple-1.1.jar:/Users/hasanb./.m2/repository/com/github/fge/btf/1.2/btf-1.2.jar:/Users/hasanb./.m2/repository/com/github/fge/uri-template/0.9/uri-template-0.9.jar:/Users/hasanb./.m2/repository/org/mozilla/rhino/1.7.7.1/rhino-1.7.7.1.jar:/Users/hasanb./.m2/repository/javax/mail/mailapi/1.4.3/mailapi-1.4.3.jar:/Users/hasanb./.m2/repository/joda-time/joda-time/2.9.7/joda-time-2.9.7.jar:/Users/hasanb./.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.0.0/libphonenumber-8.0.0.jar:/Users/hasanb./.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar:/Users/hasanb./.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/hasanb./.m2/repository/org/liquibase/liquibase-groovy-dsl/2.1.1/liquibase-groovy-dsl-2.1.1.jar:/Users/hasanb./.m2/repository/org/codehaus/groovy/groovy/3.0.3/groovy-3.0.3.jar:/Users/hasanb./.m2/repository/org/codehaus/groovy/groovy-sql/3.0.3/groovy-sql-3.0.3.jar:/Users/hasanb./.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.21.0/surefire-testng-utils-2.21.0.jar:/Users/hasanb./.m2/repository/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/hasanb./eclipse-workspace/SaturdayDeadpool/target/surefire/surefirebooter5930041447919387742.jar /Users/hasanb./eclipse-workspace/SaturdayDeadpool/target/surefire 2023-03-12T22-25-36_627-jvmRun1 surefire9297449617829290494tmp surefire_015568339326616187773tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/hasanb./eclipse-workspace/SaturdayDeadpool/target/test-classes:/Users/hasanb./eclipse-workspace/SaturdayDeadpool/target/classes:/Users/hasanb./.m2/repository/io/github/bonigarcia/webdrivermanager/3.8.1/webdrivermanager-3.8.1.jar:/Users/hasanb./.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/hasanb./.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/hasanb./.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/hasanb./.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/hasanb./.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/hasanb./.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/hasanb./.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/hasanb./.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/hasanb./.m2/repository/io/cucumber/cucumber-core/6.10.2/cucumber-core-6.10.2.jar:/Users/hasanb./.m2/repository/io/cucumber/cucumber-gherkin/6.10.2/cucumber-gherkin-6.10.2.jar:/Users/hasanb./.m2/repository/io/cucumber/cucumber-gherkin-messages/6.10.2/cucumber-gherkin-messages-6.10.2.jar:/Users/hasanb./.m2/repository/io/cucumber/messages/14.0.1/messages-14.0.1.jar:/Users/hasanb./.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/hasanb./.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/hasanb./.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/hasanb./.m2/repository/io/cucumber/cucumber-plugin/6.10.2/cucumber-plugin-6.10.2.jar:/Users/hasanb./.m2/repository/io/cucumber/docstring/6.10.2/docstring-6.10.2.jar:/Users/hasanb./.m2/repository/io/cucumber/html-formatter/12.0.0/html-formatter-12.0.0.jar:/Users/hasanb./.m2/repository/io/cucumber/create-meta/3.0.0/create-meta-3.0.0.jar:/Users/hasanb./.m2/repository/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.jar:/Users/hasanb./.m2/repository/io/cucumber/cucumber-java/6.10.2/cucumber-java-6.10.2.jar:/Users/hasanb./.m2/repository/io/cucumber/cucumber-testng/6.10.2/cucumber-testng-6.10.2.jar:/Users/hasanb./.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/hasanb./.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/Users/hasanb./.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/Users/hasanb./.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/Users/hasanb./.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/Users/hasanb./.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/Users/hasanb./.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/Users/hasanb./.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/Users/hasanb./.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/Users/hasanb./.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/Users/hasanb./.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/Users/hasanb./.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/Users/hasanb./.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/hasanb./.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/hasanb./.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/hasanb./.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/hasanb./.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/Users/hasanb./.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/hasanb./.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/hasanb./.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/hasanb./.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/hasanb./.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/hasanb./.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/hasanb./.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/hasanb./.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/hasanb./.m2/repository/org/testng/testng/6.8/testng-6.8.jar:/Users/hasanb./.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/hasanb./.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/hasanb./.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/Users/hasanb./.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar:/Users/hasanb./.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar:/Users/hasanb./.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/hasanb./.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/hasanb./.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/hasanb./.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/hasanb./.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/hasanb./.m2/repository/com/vimalselvam/cucumber-extentsreport/3.1.0/cucumber-extentsreport-3.1.0.jar:/Users/hasanb./.m2/repository/org/apache/poi/poi-ooxml/3.8-beta4/poi-ooxml-3.8-beta4.jar:/Users/hasanb./.m2/repository/org/apache/poi/poi/3.8-beta4/poi-3.8-beta4.jar:/Users/hasanb./.m2/repository/org/apache/poi/poi-ooxml-schemas/3.8-beta4/poi-ooxml-schemas-3.8-beta4.jar:/Users/hasanb./.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar:/Users/hasanb./.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/hasanb./.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/hasanb./.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/hasanb./.m2/repository/io/rest-assured/rest-assured/4.0.0/rest-assured-4.0.0.jar:/Users/hasanb./.m2/repository/org/codehaus/groovy/groovy-xml/2.5.6/groovy-xml-2.5.6.jar:/Users/hasanb./.m2/repository/org/hamcrest/hamcrest-core/2.1/hamcrest-core-2.1.jar:/Users/hasanb./.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/hasanb./.m2/repository/org/hamcrest/hamcrest-library/2.1/hamcrest-library-2.1.jar:/Users/hasanb./.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/hasanb./.m2/repository/io/rest-assured/json-path/4.0.0/json-path-4.0.0.jar:/Users/hasanb./.m2/repository/org/codehaus/groovy/groovy-json/2.5.6/groovy-json-2.5.6.jar:/Users/hasanb./.m2/repository/io/rest-assured/rest-assured-common/4.0.0/rest-assured-common-4.0.0.jar:/Users/hasanb./.m2/repository/io/rest-assured/xml-path/4.0.0/xml-path-4.0.0.jar:/Users/hasanb./.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/Users/hasanb./.m2/repository/com/sun/xml/bind/jaxb-osgi/2.2.10/jaxb-osgi-2.2.10.jar:/Users/hasanb./.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/hasanb./.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/hasanb./.m2/repository/io/rest-assured/json-schema-validator/4.0.0/json-schema-validator-4.0.0.jar:/Users/hasanb./.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.10/json-schema-validator-2.2.10.jar:/Users/hasanb./.m2/repository/com/github/java-json-tools/json-schema-core/1.2.10/json-schema-core-1.2.10.jar:/Users/hasanb./.m2/repository/com/github/java-json-tools/jackson-coreutils/1.9/jackson-coreutils-1.9.jar:/Users/hasanb./.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.jar:/Users/hasanb./.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar:/Users/hasanb./.m2/repository/com/fasterxml/jackson/core/jackson-core/2.2.3/jackson-core-2.2.3.jar:/Users/hasanb./.m2/repository/com/github/fge/msg-simple/1.1/msg-simple-1.1.jar:/Users/hasanb./.m2/repository/com/github/fge/btf/1.2/btf-1.2.jar:/Users/hasanb./.m2/repository/com/github/fge/uri-template/0.9/uri-template-0.9.jar:/Users/hasanb./.m2/repository/org/mozilla/rhino/1.7.7.1/rhino-1.7.7.1.jar:/Users/hasanb./.m2/repository/javax/mail/mailapi/1.4.3/mailapi-1.4.3.jar:/Users/hasanb./.m2/repository/joda-time/joda-time/2.9.7/joda-time-2.9.7.jar:/Users/hasanb./.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.0.0/libphonenumber-8.0.0.jar:/Users/hasanb./.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar:/Users/hasanb./.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/hasanb./.m2/repository/org/liquibase/liquibase-groovy-dsl/2.1.1/liquibase-groovy-dsl-2.1.1.jar:/Users/hasanb./.m2/repository/org/codehaus/groovy/groovy/3.0.3/groovy-3.0.3.jar:/Users/hasanb./.m2/repository/org/codehaus/groovy/groovy-sql/3.0.3/groovy-sql-3.0.3.jar:/Users/hasanb./.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.21.0/surefire-testng-utils-2.21.0.jar:/Users/hasanb./.m2/repository/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/hasanb."/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/hasanb./eclipse-workspace/SaturdayDeadpool"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/hasanb./eclipse-workspace/SaturdayDeadpool/target/surefire/surefirebooter5930041447919387742.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
+    <property name="user.name" value="hasanb."/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/hasanb./.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/mn/8tmqyv3j2ysc4pxk0hwsnqnw0000gn/T/"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="/Users/hasanb./eclipse-workspace/SaturdayDeadpool"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/hasanb./Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runScenario" classname="upskill.runners.RunnerClass" time="62.713"/>
+  <testcase name="runScenario" classname="upskill.runners.RunnerClass" time="27.887"/>
+  <testcase name="runScenario" classname="upskill.runners.RunnerClass" time="44.029"/>
+  <testcase name="runScenario" classname="upskill.runners.RunnerClass" time="22.02">
+    <failure message="disconnected: Unable to receive message from renderer&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=111.0.5563.64)&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;Hasans-MBP.lan1&apos;, ip: &apos;2603:7000:dd00:341c:0:0:0:ae%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.0&apos;, java.version: &apos;17.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:52832}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 19b67f0526b0e72b1e4079ad46fa9673" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=111.0.5563.64)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'Hasans-MBP.lan1', ip: '2603:7000:dd00:341c:0:0:0:ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:52832}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19b67f0526b0e72b1e4079ad46fa9673
+</failure>
+    <system-out><![CDATA[
+@regression @smoke @us-248
+Scenario: Ebay cart functionality          # src/test/resource/FeatureFiles/EbayCartDropDown.feature:9
+--->>>> Initializing Driver....
+Test Scenario Name : Ebay cart functionality
+  Given Open Ebay Homepage                 # upskill.stepDef.EbayHomePageSteps.open_ebay_homepage()
+  Given Search for Big Tall Cotton Tee     # upskill.stepDef.EbayHomePageSteps.search_for_big_tall_cotton_tee()
+      org.openqa.selenium.WebDriverException: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=111.0.5563.64)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'Hasans-MBP.lan1', ip: '2603:7000:dd00:341c:0:0:0:ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:52832}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19b67f0526b0e72b1e4079ad46fa9673
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at upskill.pageActions.EbayHomePageActions.typeBigTallCottonTee(EbayHomePageActions.java:41)
+	at upskill.stepDef.EbayHomePageSteps.search_for_big_tall_cotton_tee(EbayHomePageSteps.java:47)
+	at ✽.Search for Big Tall Cotton Tee(file:///Users/hasanb./eclipse-workspace/SaturdayDeadpool/src/test/resource/FeatureFiles/EbayCartDropDown.feature:10)
+
+  When Select the first shirt on item list # upskill.stepDef.EbaySearchResultSteps.select_the_first_shirt_on_item_list()
+  And Select Size                          # upskill.stepDef.EbayCartSteps.select_size()
+  And Select Men Size                      # upskill.stepDef.EbayCartSteps.select_men_size()
+  And Select Shade                         # upskill.stepDef.EbayCartSteps.select_shade()
+  And Select Quantity                      # upskill.stepDef.EbayCartSteps.select_quantity()
+  Then Add to shopping cart                # upskill.stepDef.EbayCartSteps.add_to_shopping_cart()
+      org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=111.0.5563.64)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'Hasans-MBP.lan1', ip: '2603:7000:dd00:341c:0:0:0:ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:52832}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19b67f0526b0e72b1e4079ad46fa9673
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:289)
+	at upskill.utilities.TakeScreenshot.screenshots(TakeScreenshot.java:20)
+	at upskill.utilities.AfterActions.afterActions(AfterActions.java:13)
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 31617
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 12, 2023 10:27:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1678674494.521][SEVERE]: Unable to receive message from renderer
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="upskill.runners.RunnerClass" time="38.025">
+    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=111.0.5563.64)&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;Hasans-MBP.lan1&apos;, ip: &apos;2603:7000:dd00:341c:0:0:0:ae%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.0&apos;, java.version: &apos;17.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:52942}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 17c1c6cb2b988d035e5040dec8dc251b&#10;*** Element info: {Using=xpath, value=//span[text()=&apos;Shoes&apos;]}" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=111.0.5563.64)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'Hasans-MBP.lan1', ip: '2603:7000:dd00:341c:0:0:0:ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:52942}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 17c1c6cb2b988d035e5040dec8dc251b
+*** Element info: {Using=xpath, value=//span[text()='Shoes']}
+</failure>
+    <system-out><![CDATA[
+@regression @smoke @SKYW-15 @E2E
+Scenario: Search for Shoes                               # src/test/resource/FeatureFiles/EbaySearch1.feature:4
+--->>>> Initializing Driver....
+Test Scenario Name : Search for Shoes
+  Given Open Ebay Homepage                               # upskill.stepDef.EbayHomePageSteps.open_ebay_homepage()
+  When Search for shoes                                  # upskill.stepDef.EbayHomePageSteps.search_for_shoes()
+  And Click on search button                             # upskill.stepDef.EbayHomePageSteps.click_on_search_button()
+  Then Item list should have only shoes related products # upskill.stepDef.EbaySearchResultSteps.item_list_should_have_only_shoes_related_products()
+      org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=111.0.5563.64)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'Hasans-MBP.lan1', ip: '2603:7000:dd00:341c:0:0:0:ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:52942}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 17c1c6cb2b988d035e5040dec8dc251b
+*** Element info: {Using=xpath, value=//span[text()='Shoes']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.isDisplayed(Unknown Source)
+	at upskill.pageActions.EbaySearchResultActions.verifyShoes(EbaySearchResultActions.java:19)
+	at upskill.stepDef.EbaySearchResultSteps.item_list_should_have_only_shoes_related_products(EbaySearchResultSteps.java:14)
+	at ✽.Item list should have only shoes related products(file:///Users/hasanb./eclipse-workspace/SaturdayDeadpool/src/test/resource/FeatureFiles/EbaySearch1.feature:8)
+
+      org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=111.0.5563.64)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'Hasans-MBP.lan1', ip: '2603:7000:dd00:341c:0:0:0:ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:52942}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 17c1c6cb2b988d035e5040dec8dc251b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:289)
+	at upskill.utilities.TakeScreenshot.screenshots(TakeScreenshot.java:20)
+	at upskill.utilities.AfterActions.afterActions(AfterActions.java:13)
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 11386
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 12, 2023 10:28:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="upskill.runners.RunnerClass" time="16.222">
+    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=111.0.5563.64)&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;Hasans-MBP.lan1&apos;, ip: &apos;2603:7000:dd00:341c:0:0:0:ae%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.0&apos;, java.version: &apos;17.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:53087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: b87be3d065a1b434963ae057c1782546&#10;*** Element info: {Using=xpath, value=//span[text()=&apos;Pants&apos;]}" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=111.0.5563.64)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'Hasans-MBP.lan1', ip: '2603:7000:dd00:341c:0:0:0:ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:53087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b87be3d065a1b434963ae057c1782546
+*** Element info: {Using=xpath, value=//span[text()='Pants']}
+</failure>
+    <system-out><![CDATA[
+@regression @smoke @SKYW-15 @E2E
+Scenario: Search for Pants                               # src/test/resource/FeatureFiles/EbaySearch1.feature:11
+--->>>> Initializing Driver....
+Test Scenario Name : Search for Pants
+  Given Open Ebay Homepage                               # upskill.stepDef.EbayHomePageSteps.open_ebay_homepage()
+  When Search for Pants                                  # upskill.stepDef.EbayHomePageSteps.search_for_pants()
+  And Click on search button                             # upskill.stepDef.EbayHomePageSteps.click_on_search_button()
+  Then Item list should have only pants related products # upskill.stepDef.EbaySearchResultSteps.item_list_should_have_only_pants_related_products()
+      org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=111.0.5563.64)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'Hasans-MBP.lan1', ip: '2603:7000:dd00:341c:0:0:0:ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:53087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b87be3d065a1b434963ae057c1782546
+*** Element info: {Using=xpath, value=//span[text()='Pants']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.isDisplayed(Unknown Source)
+	at upskill.pageActions.EbaySearchResultActions.verifyPants(EbaySearchResultActions.java:23)
+	at upskill.stepDef.EbaySearchResultSteps.item_list_should_have_only_pants_related_products(EbaySearchResultSteps.java:20)
+	at ✽.Item list should have only pants related products(file:///Users/hasanb./eclipse-workspace/SaturdayDeadpool/src/test/resource/FeatureFiles/EbaySearch1.feature:15)
+
+      org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=111.0.5563.64)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'Hasans-MBP.lan1', ip: '2603:7000:dd00:341c:0:0:0:ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:53087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b87be3d065a1b434963ae057c1782546
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:289)
+	at upskill.utilities.TakeScreenshot.screenshots(TakeScreenshot.java:20)
+	at upskill.utilities.AfterActions.afterActions(AfterActions.java:13)
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 9808
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 12, 2023 10:28:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="upskill.runners.RunnerClass" time="6.17">
+    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=111.0.5563.64)&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;Hasans-MBP.lan1&apos;, ip: &apos;2603:7000:dd00:341c:0:0:0:ae%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.0&apos;, java.version: &apos;17.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:53164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 713ba4b5e28a6ad284ac535ef19594f5&#10;*** Element info: {Using=xpath, value=//input[@placeholder=&apos;Search for anything&apos;]}" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=111.0.5563.64)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'Hasans-MBP.lan1', ip: '2603:7000:dd00:341c:0:0:0:ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:53164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 713ba4b5e28a6ad284ac535ef19594f5
+*** Element info: {Using=xpath, value=//input[@placeholder='Search for anything']}
+</failure>
+    <system-out><![CDATA[
+@regression @smoke @SKYW-15 @E2E
+Scenario: Search for Shirts                               # src/test/resource/FeatureFiles/EbaySearch1.feature:18
+--->>>> Initializing Driver....
+Test Scenario Name : Search for Shirts
+  Given Open Ebay Homepage                                # upskill.stepDef.EbayHomePageSteps.open_ebay_homepage()
+  When Search for shirts                                  # upskill.stepDef.EbayHomePageSteps.search_for_shirts()
+      org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=111.0.5563.64)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'Hasans-MBP.lan1', ip: '2603:7000:dd00:341c:0:0:0:ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:53164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 713ba4b5e28a6ad284ac535ef19594f5
+*** Element info: {Using=xpath, value=//input[@placeholder='Search for anything']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.sendKeys(Unknown Source)
+	at upskill.pageActions.EbayHomePageActions.typeShirts(EbayHomePageActions.java:31)
+	at upskill.stepDef.EbayHomePageSteps.search_for_shirts(EbayHomePageSteps.java:34)
+	at ✽.Search for shirts(file:///Users/hasanb./eclipse-workspace/SaturdayDeadpool/src/test/resource/FeatureFiles/EbaySearch1.feature:20)
+
+  And Click on search button                              # upskill.stepDef.EbayHomePageSteps.click_on_search_button()
+  Then Item list should have only shirts related products # upskill.stepDef.EbaySearchResultSteps.item_list_should_have_only_shirts_related_products()
+      org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=111.0.5563.64)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'Hasans-MBP.lan1', ip: '2603:7000:dd00:341c:0:0:0:ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:53164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 713ba4b5e28a6ad284ac535ef19594f5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:289)
+	at upskill.utilities.TakeScreenshot.screenshots(TakeScreenshot.java:20)
+	at upskill.utilities.AfterActions.afterActions(AfterActions.java:13)
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 38318
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 12, 2023 10:29:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="upskill.runners.RunnerClass" time="6.407">
+    <failure message="disconnected: not connected to DevTools&#10;  (failed to check if window was closed: disconnected: not connected to DevTools)&#10;  (Session info: chrome=111.0.5563.64)&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;Hasans-MBP.lan1&apos;, ip: &apos;2603:7000:dd00:341c:0:0:0:ae%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.0&apos;, java.version: &apos;17.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:53188}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 95671df1b8ea6f6d5c4d20489bbefe0e" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=111.0.5563.64)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'Hasans-MBP.lan1', ip: '2603:7000:dd00:341c:0:0:0:ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:53188}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 95671df1b8ea6f6d5c4d20489bbefe0e
+</failure>
+    <system-out><![CDATA[
+@regression @apitesting
+Scenario: Upskill multiple employee records # src/test/resource/FeatureFiles/EmployeeApiTesting.feature:6
+--->>>> Initializing Driver....
+Test Scenario Name : Upskill multiple employee records
+  Given Create new employee record          # null
+  When Get all employee data                # null
+  Then Get single employee data by id       # null
+      org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=111.0.5563.64)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'Hasans-MBP.lan1', ip: '2603:7000:dd00:341c:0:0:0:ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:53188}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 95671df1b8ea6f6d5c4d20489bbefe0e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:433)
+	at upskill.utilities.SetupDrivers.tearDownDriver(SetupDrivers.java:36)
+	at upskill.utilities.AfterActions.afterActions(AfterActions.java:16)
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 39259
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 12, 2023 10:29:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="writeExtentReport" classname="upskill.runners.RunnerClass" time="6.419">
+    <failure message="Cannot invoke &quot;com.aventstack.extentreports.reporter.ExtentHtmlReporter.loadXMLConfig(java.io.File)&quot; because the return value of &quot;com.cucumber.listener.Reporter.getExtentHtmlReport()&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.reporter.ExtentHtmlReporter.loadXMLConfig(java.io.File)" because the return value of "com.cucumber.listener.Reporter.getExtentHtmlReport()" is null
+	at upskill.runners.RunnerClass.writeExtentReport(RunnerClass.java:25)
+</failure>
+  </testcase>
+</testsuite>

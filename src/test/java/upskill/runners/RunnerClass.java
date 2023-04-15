@@ -14,7 +14,8 @@ import io.cucumber.testng.CucumberOptions;
                      tags = ("@regression"),
 		             plugin = { "pretty", "html:target/cucumber-htmlreport",
 				                "json:target/cucumber-report.json",
-				                "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports.html" },
+				             //   "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports.html" 
+				                },
 		             monochrome = true)
 
 public class RunnerClass extends AbstractTestNGCucumberTests {

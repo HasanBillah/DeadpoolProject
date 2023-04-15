@@ -1,0 +1,1016 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 26706000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open Ebay Homepage",
+            "match": {
+              "location": "upskill.stepDef.EbayHomePageSteps.open_ebay_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-13T02:25:38.229Z",
+        "before": [
+          {
+            "result": {
+              "duration": 29275043000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "upskill.utilities.BeforeActions.beforeActions(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Filter items by Brand",
+        "description": "",
+        "id": "ebay-brand-outline;filter-items-by-brand;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 271573000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "upskill.utilities.AfterActions.afterActions(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 28142914000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Search for \"Shoes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shoes\"",
+                  "offset": 11
+                }
+              ],
+              "location": "upskill.stepDef.EbayHomePageSteps.search_for(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4052612000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Filter by \"Nike\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nike\"",
+                  "offset": 10
+                }
+              ],
+              "location": "upskill.stepDef.EbaySearchResultSteps.filter_by(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 742024000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Item list should have products of \"Nike\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nike\"",
+                  "offset": 34
+                }
+              ],
+              "location": "upskill.stepDef.EbaySearchResultSteps.item_list_should_have_products_of(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@us-246"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1625000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open Ebay Homepage",
+            "match": {
+              "location": "upskill.stepDef.EbayHomePageSteps.open_ebay_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-13T02:26:40.793Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7993896000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "upskill.utilities.BeforeActions.beforeActions(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Filter items by Brand",
+        "description": "",
+        "id": "ebay-brand-outline;filter-items-by-brand;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 203053000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "upskill.utilities.AfterActions.afterActions(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14533007000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Search for \"Shirts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shirts\"",
+                  "offset": 11
+                }
+              ],
+              "location": "upskill.stepDef.EbayHomePageSteps.search_for(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5017420000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Filter by \"Adidas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Adidas\"",
+                  "offset": 10
+                }
+              ],
+              "location": "upskill.stepDef.EbaySearchResultSteps.filter_by(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112946000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Item list should have products of \"Adidas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Adidas\"",
+                  "offset": 34
+                }
+              ],
+              "location": "upskill.stepDef.EbaySearchResultSteps.item_list_should_have_products_of(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@us-246"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1459000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open Ebay Homepage",
+            "match": {
+              "location": "upskill.stepDef.EbayHomePageSteps.open_ebay_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-13T02:27:08.683Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7934099000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "upskill.utilities.BeforeActions.beforeActions(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Filter items by Brand",
+        "description": "",
+        "id": "ebay-brand-outline;filter-items-by-brand;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 209744000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "upskill.utilities.AfterActions.afterActions(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 32950486000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Search for \"Pants\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pants\"",
+                  "offset": 11
+                }
+              ],
+              "location": "upskill.stepDef.EbayHomePageSteps.search_for(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2636650000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Filter by \"Unbranded\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Unbranded\"",
+                  "offset": 10
+                }
+              ],
+              "location": "upskill.stepDef.EbaySearchResultSteps.filter_by(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 249901000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Item list should have products of \"Unbranded\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Unbranded\"",
+                  "offset": 34
+                }
+              ],
+              "location": "upskill.stepDef.EbaySearchResultSteps.item_list_should_have_products_of(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@us-246"
+          }
+        ]
+      }
+    ],
+    "name": "Ebay Brand Outline",
+    "description": "Description: User should able to filter items by Brand",
+    "id": "ebay-brand-outline",
+    "keyword": "Feature",
+    "uri": "file:src/test/resource/FeatureFiles/EbayBrandOutline.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 13
+        }
+      },
+      {
+        "name": "@us-246",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 20
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 515000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open Ebay Homepage",
+            "match": {
+              "location": "upskill.stepDef.EbayHomePageSteps.open_ebay_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-13T02:27:52.705Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8048260000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "upskill.utilities.BeforeActions.beforeActions(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Ebay cart functionality",
+        "description": "",
+        "id": "ebay-cart-functionality;ebay-cart-functionality",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome\u003d111.0.5563.64)\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027Hasans-MBP.lan1\u0027, ip: \u00272603:7000:dd00:341c:0:0:0:ae%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002713.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:52832}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 19b67f0526b0e72b1e4079ad46fa9673\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:289)\n\tat upskill.utilities.TakeScreenshot.screenshots(TakeScreenshot.java:20)\n\tat upskill.utilities.AfterActions.afterActions(AfterActions.java:13)\n",
+              "duration": 9281000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "upskill.utilities.AfterActions.afterActions(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: disconnected: Unable to receive message from renderer\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome\u003d111.0.5563.64)\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027Hasans-MBP.lan1\u0027, ip: \u00272603:7000:dd00:341c:0:0:0:ae%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002713.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:52832}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 19b67f0526b0e72b1e4079ad46fa9673\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\n\tat jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)\n\tat upskill.pageActions.EbayHomePageActions.typeBigTallCottonTee(EbayHomePageActions.java:41)\n\tat upskill.stepDef.EbayHomePageSteps.search_for_big_tall_cotton_tee(EbayHomePageSteps.java:47)\n\tat ✽.Search for Big Tall Cotton Tee(file:///Users/hasanb./eclipse-workspace/SaturdayDeadpool/src/test/resource/FeatureFiles/EbayCartDropDown.feature:10)\n",
+              "duration": 13920961000,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "Search for Big Tall Cotton Tee",
+            "match": {
+              "location": "upskill.stepDef.EbayHomePageSteps.search_for_big_tall_cotton_tee()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 275000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Select the first shirt on item list",
+            "match": {
+              "location": "upskill.stepDef.EbaySearchResultSteps.select_the_first_shirt_on_item_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 230000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Select Size",
+            "match": {
+              "location": "upskill.stepDef.EbayCartSteps.select_size()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 607000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Select Men Size",
+            "match": {
+              "location": "upskill.stepDef.EbayCartSteps.select_men_size()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39000,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Select Shade",
+            "match": {
+              "location": "upskill.stepDef.EbayCartSteps.select_shade()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37000,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Select Quantity",
+            "match": {
+              "location": "upskill.stepDef.EbayCartSteps.select_quantity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28000,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Add to shopping cart",
+            "match": {
+              "location": "upskill.stepDef.EbayCartSteps.add_to_shopping_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@us-248"
+          }
+        ]
+      }
+    ],
+    "name": "Ebay Cart Functionality",
+    "description": "Description: User should able to add items in cart",
+    "id": "ebay-cart-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resource/FeatureFiles/EbayCartDropDown.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 13
+        }
+      },
+      {
+        "name": "@us-248",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 20
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-13T02:28:14.724Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9711745000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "upskill.utilities.BeforeActions.beforeActions(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Search for Shoes",
+        "description": "",
+        "id": "ebay-search-functionality;search-for-shoes",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d111.0.5563.64)\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027Hasans-MBP.lan1\u0027, ip: \u00272603:7000:dd00:341c:0:0:0:ae%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002713.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:52942}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 17c1c6cb2b988d035e5040dec8dc251b\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:289)\n\tat upskill.utilities.TakeScreenshot.screenshots(TakeScreenshot.java:20)\n\tat upskill.utilities.AfterActions.afterActions(AfterActions.java:13)\n",
+              "duration": 14899000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "upskill.utilities.AfterActions.afterActions(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1434000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open Ebay Homepage",
+            "match": {
+              "location": "upskill.stepDef.EbayHomePageSteps.open_ebay_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14261292000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Search for shoes",
+            "match": {
+              "location": "upskill.stepDef.EbayHomePageSteps.search_for_shoes()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13990873000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on search button",
+            "match": {
+              "location": "upskill.stepDef.EbayHomePageSteps.click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d111.0.5563.64)\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027Hasans-MBP.lan1\u0027, ip: \u00272603:7000:dd00:341c:0:0:0:ae%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002713.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:52942}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 17c1c6cb2b988d035e5040dec8dc251b\n*** Element info: {Using\u003dxpath, value\u003d//span[text()\u003d\u0027Shoes\u0027]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat jdk.proxy2/jdk.proxy2.$Proxy21.isDisplayed(Unknown Source)\n\tat upskill.pageActions.EbaySearchResultActions.verifyShoes(EbaySearchResultActions.java:19)\n\tat upskill.stepDef.EbaySearchResultSteps.item_list_should_have_only_shoes_related_products(EbaySearchResultSteps.java:14)\n\tat ✽.Item list should have only shoes related products(file:///Users/hasanb./eclipse-workspace/SaturdayDeadpool/src/test/resource/FeatureFiles/EbaySearch1.feature:8)\n",
+              "duration": 9529000,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "Item list should have only shoes related products",
+            "match": {
+              "location": "upskill.stepDef.EbaySearchResultSteps.item_list_should_have_only_shoes_related_products()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@SKYW-15"
+          },
+          {
+            "name": "@E2E"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-13T02:28:52.760Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7288436000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "upskill.utilities.BeforeActions.beforeActions(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Search for Pants",
+        "description": "",
+        "id": "ebay-search-functionality;search-for-pants",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d111.0.5563.64)\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027Hasans-MBP.lan1\u0027, ip: \u00272603:7000:dd00:341c:0:0:0:ae%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002713.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:53087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: b87be3d065a1b434963ae057c1782546\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:289)\n\tat upskill.utilities.TakeScreenshot.screenshots(TakeScreenshot.java:20)\n\tat upskill.utilities.AfterActions.afterActions(AfterActions.java:13)\n",
+              "duration": 10442000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "upskill.utilities.AfterActions.afterActions(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 257000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Open Ebay Homepage",
+            "match": {
+              "location": "upskill.stepDef.EbayHomePageSteps.open_ebay_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7209913000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Search for Pants",
+            "match": {
+              "location": "upskill.stepDef.EbayHomePageSteps.search_for_pants()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1662314000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click on search button",
+            "match": {
+              "location": "upskill.stepDef.EbayHomePageSteps.click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d111.0.5563.64)\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027Hasans-MBP.lan1\u0027, ip: \u00272603:7000:dd00:341c:0:0:0:ae%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002713.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:53087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: b87be3d065a1b434963ae057c1782546\n*** Element info: {Using\u003dxpath, value\u003d//span[text()\u003d\u0027Pants\u0027]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat jdk.proxy2/jdk.proxy2.$Proxy21.isDisplayed(Unknown Source)\n\tat upskill.pageActions.EbaySearchResultActions.verifyPants(EbaySearchResultActions.java:23)\n\tat upskill.stepDef.EbaySearchResultSteps.item_list_should_have_only_pants_related_products(EbaySearchResultSteps.java:20)\n\tat ✽.Item list should have only pants related products(file:///Users/hasanb./eclipse-workspace/SaturdayDeadpool/src/test/resource/FeatureFiles/EbaySearch1.feature:15)\n",
+              "duration": 6468000,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "Item list should have only pants related products",
+            "match": {
+              "location": "upskill.stepDef.EbaySearchResultSteps.item_list_should_have_only_pants_related_products()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@SKYW-15"
+          },
+          {
+            "name": "@E2E"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-13T02:29:08.976Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6131062000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "upskill.utilities.BeforeActions.beforeActions(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Search for Shirts",
+        "description": "",
+        "id": "ebay-search-functionality;search-for-shirts",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d111.0.5563.64)\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027Hasans-MBP.lan1\u0027, ip: \u00272603:7000:dd00:341c:0:0:0:ae%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002713.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:53164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 713ba4b5e28a6ad284ac535ef19594f5\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:289)\n\tat upskill.utilities.TakeScreenshot.screenshots(TakeScreenshot.java:20)\n\tat upskill.utilities.AfterActions.afterActions(AfterActions.java:13)\n",
+              "duration": 7882000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "upskill.utilities.AfterActions.afterActions(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 660000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Open Ebay Homepage",
+            "match": {
+              "location": "upskill.stepDef.EbayHomePageSteps.open_ebay_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d111.0.5563.64)\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027Hasans-MBP.lan1\u0027, ip: \u00272603:7000:dd00:341c:0:0:0:ae%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002713.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:53164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 713ba4b5e28a6ad284ac535ef19594f5\n*** Element info: {Using\u003dxpath, value\u003d//input[@placeholder\u003d\u0027Search for anything\u0027]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat jdk.proxy2/jdk.proxy2.$Proxy21.sendKeys(Unknown Source)\n\tat upskill.pageActions.EbayHomePageActions.typeShirts(EbayHomePageActions.java:31)\n\tat upskill.stepDef.EbayHomePageSteps.search_for_shirts(EbayHomePageSteps.java:34)\n\tat ✽.Search for shirts(file:///Users/hasanb./eclipse-workspace/SaturdayDeadpool/src/test/resource/FeatureFiles/EbaySearch1.feature:20)\n",
+              "duration": 11101000,
+              "status": "failed"
+            },
+            "line": 20,
+            "name": "Search for shirts",
+            "match": {
+              "location": "upskill.stepDef.EbayHomePageSteps.search_for_shirts()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130000,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Click on search button",
+            "match": {
+              "location": "upskill.stepDef.EbayHomePageSteps.click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57000,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "Item list should have only shirts related products",
+            "match": {
+              "location": "upskill.stepDef.EbaySearchResultSteps.item_list_should_have_only_shirts_related_products()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@SKYW-15"
+          },
+          {
+            "name": "@E2E"
+          }
+        ]
+      }
+    ],
+    "name": "Ebay Search Functionality",
+    "description": "",
+    "id": "ebay-search-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resource/FeatureFiles/EbaySearch1.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 13
+        }
+      },
+      {
+        "name": "@SKYW-15",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 20
+        }
+      },
+      {
+        "name": "@E2E",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 29
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-13T02:29:15.219Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6283697000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "upskill.utilities.BeforeActions.beforeActions(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Upskill multiple employee records",
+        "description": "",
+        "id": "app-user-should-be-able-to-create-and-get-employee-details;upskill-multiple-employee-records",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome\u003d111.0.5563.64)\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027Hasans-MBP.lan1\u0027, ip: \u00272603:7000:dd00:341c:0:0:0:ae%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002713.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/mn/8tmqyv3j2ys...}, goog:chromeOptions: {debuggerAddress: localhost:53188}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 95671df1b8ea6f6d5c4d20489bbefe0e\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:433)\n\tat upskill.utilities.SetupDrivers.tearDownDriver(SetupDrivers.java:36)\n\tat upskill.utilities.AfterActions.afterActions(AfterActions.java:16)\n",
+              "duration": 13260000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "upskill.utilities.AfterActions.afterActions(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Create new employee record",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 55000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Get all employee data",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2077000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Get single employee data by id",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@apitesting"
+          }
+        ]
+      }
+    ],
+    "name": "App user should be able to create and get employee details",
+    "description": "",
+    "id": "app-user-should-be-able-to-create-and-get-employee-details",
+    "keyword": "Feature",
+    "uri": "file:src/test/resource/FeatureFiles/EmployeeApiTesting.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@apitesting",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 13
+        }
+      }
+    ]
+  }
+]

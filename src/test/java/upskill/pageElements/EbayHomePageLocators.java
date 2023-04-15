@@ -10,5 +10,10 @@ public class EbayHomePageLocators {
 	
 	@FindBy(xpath="//input[@type='submit']")
 	public WebElement btnSearch;
-
+	
+	@FindBy(xpath="//a[@title='My eBay']")
+	public WebElement myEbayButton;
+	
+	@FindBy(xpath="//a[contains(text(),'Summary')]")
+	public WebElement summaryButton; 
 }
